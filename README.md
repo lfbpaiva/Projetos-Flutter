@@ -1,16 +1,46 @@
-# calculadora_imc
+🧠 Estudos em Flutter  
+Este repositório contém um aplicativo simples desenvolvido em Flutter para calcular o **IMC (Índice de Massa Corporal)** com base nos dados inseridos pelo usuário. O projeto tem como foco a prática com `TextField`, `TextEditingController`, atualização de estado com `setState`, e estrutura básica de interface utilizando widgets do Material Design.
 
-A new Flutter project.
+---
 
-## Getting Started
+📁 Estrutura do Projeto  
+🔹 `main.dart`  
+- Tela principal com `AppBar` e `SingleChildScrollView`.  
+- Campos de entrada para nome, altura e peso.  
+- Botão que calcula o IMC e exibe uma mensagem com o resultado.  
+- Função que classifica o IMC como *Magro*, *Normal* ou *Sobrepeso*.  
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+🚀 Tecnologias Utilizadas  
+- Flutter  
+- Dart  
+- Material Design  
+- StatefulWidget  
+- TextEditingController  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+🎯 Objetivo  
+Este projeto tem como foco:  
+- Praticar a construção de interfaces no Flutter  
+- Trabalhar com entrada de dados via `TextField`  
+- Utilizar `TextEditingController` para capturar valores  
+- Implementar lógica condicional e `setState`  
+- Estimular o desenvolvimento de pequenos aplicativos funcionais  
+
+---
+
+🧑‍💻 Autor  
+Desenvolvido por [lfbpaiva](https://github.com/lfbpaiva) como parte de estudos e exercícios práticos com Flutter.
+
+---
+
+📌 Observações  
+O projeto pode ser evoluído com funcionalidades como:  
+- Validação de campos antes do cálculo  
+- Classificações adicionais (Obesidade, etc.)  
+- Interface aprimorada com animações e feedback visual  
+- Salvamento de histórico do usuário com uso de armazenamento local  
+
+Sinta-se à vontade para clonar, estudar e contribuir com ideias!
